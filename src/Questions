@@ -1,0 +1,7 @@
+Demo how to set a break point in eclipse
+> Double click the left panel on the line you wish to set the breakpoint
+
+Add an option to force it to throw and exception and explain how you would find the line causing the exception from the stack trace
+> When You debug the application with the breakpoint set, You can open the breakpoint to force throw an exception by selecting the 'J!' icon on the side, and set the kind of exception you want to throw.
+> The Stack trace will originally give you the kind of the exception that has been thrown, which can give you a basic idea and some information regarding the problem.
+The trace will also give you a list of issues leading to the exception. The last line of the trace will give you the exact point where the exception occured. This comes out as a stack, so the last line will give the location where the problem started occurring, i.e. the cause of the exception.
